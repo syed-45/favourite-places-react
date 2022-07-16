@@ -3,13 +3,7 @@ import PlaceEntry from "./placeEntry";
 function AppMainScetion(): JSX.Element {
   return (
     <main>
-      <section
-        style={{
-          border: "2px dashed green",
-          textAlign: "center",
-          margin: "0px 0px 10px 0px",
-        }}
-      >
+      <section>
         <ol>
           <PlaceEntry
             title={"Home Town"}
@@ -33,7 +27,7 @@ function AppMainScetion(): JSX.Element {
             location={
               "https://www.google.com/maps?q=sylhet&source=lmns&bih=784&biw=1919&hl=en&sa=X&ved=2ahUKEwjQo7Dimf34AhXNhFwKHaY0BicQ_AUoAXoECAEQAQ"
             }
-            reason={`It's where I was born and where I grew up!`}
+            reason={`It's where my parents were born and grew up!`}
           />
           <PlaceEntry
             title={"Home Town"}

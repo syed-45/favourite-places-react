@@ -17,7 +17,13 @@ interface placeInfo {
 function PlaceEntry(props: placeInfo): JSX.Element {
   //remember PascalCase for react functions !!
   return (
-    <li>
+    <li 
+      style={{
+      border: "2px dashed green",
+      textAlign: "center",
+      margin: "0px 0px 10px 0px",
+      }}
+    >
       <h2> {props.title} </h2>
       <img src={props.imageURL} width="20%" alt="favPlace" />
       <h3>
