@@ -1,4 +1,4 @@
-interface placeInfo {
+export interface placeInfo {
   title: string;
   placeName: string;
   countryName: string;
